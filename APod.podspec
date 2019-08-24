@@ -52,10 +52,10 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "guozhenqiang" => "guozhenqiang@autohome.com.cn" }
-  # Or just: spec.author    = "guozhenqiang"
-  # spec.authors            = { "guozhenqiang" => "guozhenqiang@autohome.com.cn" }
-  # spec.social_media_url   = "https://twitter.com/guozhenqiang"
+  spec.author             = { "APod" => "Apod" }
+  # Or just: spec.author    = ""
+  # spec.authors            = { "" => "" }
+  # spec.social_media_url   = "https://twitter.com/APod"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
